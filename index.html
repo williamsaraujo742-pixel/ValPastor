@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una carta para ti</title>
+    <!-- Letras bonitas de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Decoración de fondo (Nubes y corazones) -->
+    <div class="fondo-decoracion">
+        <span class="nube n1">☁️</span>
+        <span class="nube n2">☁️</span>
+        <span class="nube n3">☁️</span>
+        <span class="corazon-fondo c1">❤️</span>
+        <span class="corazon-fondo c2">💖</span>
+        <span class="corazon-fondo c3">❤️</span>
+        <span class="corazon-fondo c4">💗</span>
+    </div>
+
+    <!-- Contenedor principal de la carta -->
+    <div class="carta" id="carta">
+        
+        <!-- PRIMERA INTERFAZ: El sobre cerrado -->
+        <div class="sobre" id="sobre">
+            <div class="alas">
+                <div class="ala ala-izq"></div>
+                <div class="ala ala-der"></div>
+            </div>
+            <div class="cuerpo-sobre">
+                <div class="corazon-principal">❤️</div>
+            </div>
+            <p class="texto-instruccion">Haz clic para abrir</p>
+        </div>
+
+        <!-- SEGUNDA INTERFAZ: La carta abierta -->
+        <div class="contenido">
+            <!-- Lado izquierdo: Fotos estilo Polaroid -->
+            <div class="galeria-fotos">
+                <div class="foto-polaroid">
+                    <img src="foto1.jpg" alt="Recuerdo 1">
+                </div>
+                <div class="foto-polaroid rotada">
+                    <img src="foto2.jpg" alt="Recuerdo 2">
+                </div>
+            </div>
+            
+            <!-- Lado derecho: El mensaje -->
+            <div class="texto-carta">
+                <h3>Para ti Helmanita</h3>
+                <p>Ponga aqui sus propias palabras</p>
+                <p>te quiero Hermanita Atte:Papu...</p>
+                <p class="firma">Con cariño ❤️</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
